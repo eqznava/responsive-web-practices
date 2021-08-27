@@ -27,7 +27,7 @@ header{
     width: 100%;
 }
 
-.title > h1{
+.title{
     font-family: 'Inconsolata', monospace;
     font-weight: 700;
     font-size: 1em;
@@ -38,22 +38,17 @@ header{
 
 .main{
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 110px;
+    justify-content: center;
+    gap:90px;
     width: 90%;
+    height: 560px;
 }
 
-.mainImgContainer{
-    width: 50%;
-    height: 600px;
+.mainImg{
+    width: 40%;
     display: flex;
     align-items: center;
-}
-
-.mainImgContainer > img{
-    width: 540px;
-    height: 448px;
     animation-name: rotate;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -61,23 +56,23 @@ header{
     animation-delay: 2s;
 }
 
-.subtitle{
-    width: 586px;
-    height: 190px;
+.mainInfo{
+    width: 50%;
 }
 
-.subtitle > h2{
+.subtitle{
+    width: 83%;
+    height: 190px;
+    margin: 0px;
     font-family: monospace;
     font-size: 5em;
     color: #333;
 }
 
 .info{
-    width: 380px;
+    width: 83%;
     height: 110px;
-}
-
-.info > p{
+    margin: 0px;
     font-family: monospace;
     font-size: 2em;
     font-weight: 400;
@@ -92,6 +87,10 @@ button{
     font-size: 1.3em;
     font-family: monospace;
     font-weight: bold;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition: all 500ms;
 }
 
@@ -99,6 +98,13 @@ button:hover{
     background-color: #333;
     color: white;
     cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
 }
 
 footer > p{
