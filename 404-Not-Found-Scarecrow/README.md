@@ -38,9 +38,7 @@
 
 ![screenshot](https://github.com/eqznava/responsive-web-practices/blob/main/404-Not-Found-Scarecrow/img/screen.png?raw=true)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- You can find the the challenger [here.](https://eqznava.github.io/responsive-web-practices/404-Not-Found-Scarecrow/)
+- You can find the the challenge [here.](https://eqznava.github.io/responsive-web-practices/404-Not-Found-Scarecrow/)
 - I could practice a lot the responsive design.
 
 ### Built With
