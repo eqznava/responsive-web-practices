@@ -19,3 +19,55 @@
         font-size: 1.8em;
     }
 }
+
+@media screen and (max-width:425px){
+    .title{
+        margin-left: 40px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        gap: 30px;
+    }
+
+    .mainImg{
+        width: 60%;
+        margin-top: 40px;
+    }
+
+    .mainInfo{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .subtitle{
+        height: auto;
+        font-size: 3em;
+    }
+
+    .info{
+        margin-top: 5px;
+        font-size: 1.2em;
+        height: auto;
+    }
+
+    button{
+        margin-top: 10px;
+    }
+
+    footer > p{
+        font-size: 0.8em;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+    .subtitle{
+        font-size: 2em;
+    }
+}
