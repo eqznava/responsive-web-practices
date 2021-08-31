@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](https://www.mediafire.com/file/qys06ijg9w2mj1i/Webp.net-resizeimage+(2).png/file)
+![screenshot](https://www.mediafire.com/file/k9m9h1x1tlj824b/screen.png/file)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
