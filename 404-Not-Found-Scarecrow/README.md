@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](https://www.mediafire.com/file/k9m9h1x1tlj824b/screen.png/file)
+![screenshot](https://www.mediafire.com/file/k9m9h1x1tlj824b/screen.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
@@ -48,7 +48,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - [HTML](https://developer.mozilla.org/es/docs/Web/HTML)
-- [CSS](https://developer.mozilla.org/es/docs/Web/CSS
+- [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
 
 ## Features
 
@@ -67,6 +67,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [Mi portafolio](https://eqznava.github.io/portfolio/)
+- Website [My portfolio](https://eqznava.github.io/portfolio/)
 - GitHub [@eqznava](https://github.com/eqznava)
 - Twitter [@eqznava](https://twitter.com/eqznava)
