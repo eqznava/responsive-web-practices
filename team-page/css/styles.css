@@ -1,0 +1,90 @@
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.headerTitle{
+    font-family: PT serif;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.headerSubtitle{
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.headerText{
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+.main{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px auto;
+    gap: 50px;
+}
+
+.mainOne,
+.mainTwo,
+.mainThree{
+    border: 1px solid black;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-1,
+.card-2,
+.card-3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardImg{
+    width: 240px;
+    height: 340px;
+    position: relative;
+    left: 40px;
+}
+
+.cardName{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1em;
+    width: max-content;
+    position: relative;
+    left: 40px;
+}
+
+.cardJob-1,
+.cardJob-2,
+.cardJob-3,
+.cardJob-4,
+.cardJob-5,
+.cardJob-6{
+    margin: 0px;
+    font-family: PT serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    transform: rotate(90deg);
+    height: 20px;
+    width: 110px;
+}
+
+.cardJob-1,
+.cardJob-2,
+.cardJob-3,
+.cardJob-4,
+.cardJob-5,
+.cardJob-6{
+    position: relative;
+    left: 230px;
+    bottom: 330px;
+}
