@@ -21,20 +21,26 @@ header{
 
 .main{
     width: 80%;
+    height: 890px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 0px auto;
-    gap: 50px;
+    margin-top: 30px;
+    gap: 25px;
 }
 
 .mainOne,
 .mainTwo,
 .mainThree{
-    border: 1px solid black;
     width: 30%;
     display: flex;
     flex-direction: column;
+}
+
+.mainTwo{
+    position: relative;
+    top: 90px;
 }
 
 .card-1,
@@ -76,15 +82,30 @@ header{
     transform: rotate(90deg);
     height: 20px;
     width: 110px;
-}
-
-.cardJob-1,
-.cardJob-2,
-.cardJob-3,
-.cardJob-4,
-.cardJob-5,
-.cardJob-6{
     position: relative;
     left: 230px;
     bottom: 330px;
+}
+
+footer{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+footer > p{
+    font-family: Montserrat;
+    color: grey;
+}
+
+.footerName{
+    font-weight: bolder;
+    color:grey;
+    cursor: pointer;
+}
+
+.footerDevChallenge{
+    font-weight:500;
+    text-decoration: none;
+    color: grey;
 }
