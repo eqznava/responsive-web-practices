@@ -1,0 +1,116 @@
+@media screen and (max-width:1024px) {
+    .cardImg{
+        width: 200px;
+        height: 290px;
+    }
+
+    .main{
+        width: 85%;
+    }
+
+    .mainOne,
+    .mainTwo,
+    .mainThree{
+        height: 670px;
+    }
+
+    .cardJob-1,
+    .cardJob-2,
+    .cardJob-3,
+    .cardJob-4,
+    .cardJob-5,
+    .cardJob-6{
+        left: 195px;
+        bottom: 280px;
+    }
+
+    footer{
+        margin-top: -60px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .headerSubtitle{
+        font-family: Poppins;
+        font-weight: 600;
+    }
+
+    .headerText{
+        font-family: Poppins;
+        font-weight: 400;
+    }
+
+    .cardImg{
+        width: 170px;
+        height: 230px;
+    }
+
+    .cardName{
+        font-size: 0.9em;
+    }
+
+    .cardJob-1,
+    .cardJob-2,
+    .cardJob-3,
+    .cardJob-4,
+    .cardJob-5,
+    .cardJob-6 {
+        left: 165px;
+        bottom: 215px;
+        font-size: 0.7em;
+    }
+
+    .main{
+        height: 760px;
+        justify-content: none;
+        margin-left: 30px;
+    }
+
+}
+
+@media screen and (max-width:425px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-1{
+        position: relative;
+        right: 110px;
+    }
+
+    .cardJob-1{
+        left: 50px;
+    }
+
+    .card-3{
+        position: relative;
+        right: 30px;
+        bottom: 40px;
+    }
+
+    .cardJob-3{
+        left: 130px;
+        bottom: 255px;
+    }
+
+    .card-2{
+        position: relative;
+        left: 100px;
+        top: 50px;
+    }
+
+    .cardJob-2{
+        left: 260px;
+        bottom: 165px;
+    }
+
+    .card-4{
+
+    }
+
+    .cardJob-4{
+
+    }
+}
