@@ -75,6 +75,12 @@
         align-items: center;
     }
 
+    .mainOne,
+    .mainTwo,
+    .mainThree {
+        height: 435px;
+    }
+
     .card-1{
         position: relative;
         right: 110px;
@@ -82,17 +88,6 @@
 
     .cardJob-1{
         left: 50px;
-    }
-
-    .card-3{
-        position: relative;
-        right: 30px;
-        bottom: 40px;
-    }
-
-    .cardJob-3{
-        left: 130px;
-        bottom: 255px;
     }
 
     .card-2{
@@ -106,11 +101,234 @@
         bottom: 165px;
     }
 
-    .card-4{
+    .card-3{
+        position: relative;
+        right: 30px;
+        bottom: 40px;
+    }
 
+    .cardJob-3{
+        left: 130px;
+        bottom: 255px;
+    }
+
+    .card-4{
+        position: relative;
+        right: 237px;
+        top: 180px;
     }
 
     .cardJob-4{
-
+        left: -77px;
+        bottom: 35px;
     }
+
+    .card-5{
+        position: relative;
+        right: 175px;
+        bottom: 185px;
+    }
+
+    .cardJob-5{
+        left: -15px;
+        bottom: 400px;
+    }
+
+    .card-6{
+        position: relative;
+        right: -35px;
+        bottom: 140px;
+    }
+
+    .cardJob-6{
+        left: 195px;
+        bottom: 354px;
+    }
+
+    footer{
+        position: relative;
+        top: 170px;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    .cardImg {
+        width: 140px;
+        height: 190px;
+    }
+
+    .card-1{
+        right: 100px;
+    }
+
+    .cardJob-1{
+        left: 31px;
+        bottom: 170px;
+    }
+
+    .card-2{
+        left: 80px;
+    }
+
+    .cardJob-2{
+        left: 210px;
+        bottom: 122px;
+    }
+
+    .card-3{
+        right: 35px;
+    }
+
+    .cardJob-3{
+        left: 95px;
+        bottom: 212px;
+    }
+
+    .card-4{
+        right: 215px;
+        top: 150px;
+    }
+
+    .cardJob-4{
+        left: -83px;
+        bottom: 25px;
+    }
+
+    .card-5{
+        right: 158px;
+        bottom: 225px;
+    }
+
+    .cardJob-5 {
+        left: -27px;
+        bottom: 395px;
+    }
+
+    .card-6{
+        right: -22px;
+        bottom: 175px;
+    }
+
+    .cardJob-6{
+        left: 151px;
+        bottom: 348px;
+    }
+
+    .cardJob-1,
+    .cardJob-2,
+    .cardJob-3,
+    .cardJob-4,
+    .cardJob-5,
+    .cardJob-6{
+        font-size: 0.6em;
+        letter-spacing: 0.85px;
+    }
+
+    footer{
+        top: 105px;
+    }
+
+    footer > p{
+        font-size: 0.9em;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+    .whoWeAre{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header{
+        position: relative;
+        left: 8px;
+    }
+
+    .headerText{
+        font-size: 0.8em;
+    }
+
+    .main{
+        height: 680px;
+    }
+
+    .mainOne,
+    .mainTwo,
+    .mainThree {
+        height: 365px;
+    }
+
+    .cardImg {
+        width: 120px;
+        height: 170px;
+    }
+
+    .card-1 {
+        right: 92px;
+    }
+
+    .cardJob-1{
+        left: 19px;
+        bottom: 154px;
+    }
+
+    .card-2{
+        left: 62px;
+    }
+
+    .cardJob-2{
+        left: 172px;
+        bottom: 102px;
+    }
+
+    .card-3{
+        right: 41px;
+    }
+
+    .cardJob-3{
+        left: 69px;
+        bottom: 192px;
+    }
+
+    .card-4{
+        right: 193px;
+        top: 130px;
+    }
+
+    .cardJob-4{
+        left: -83px;
+        bottom: 23px;
+    }
+
+    .card-5{
+        right: 143px;
+        bottom: 175px;
+    }
+
+    .cardJob-5{
+        left: -32px;
+        bottom: 327px;
+    }
+
+    .card-6{
+        right: -11px;
+        bottom: 125px;
+    }
+
+    .cardJob-6{
+        left: 122px;
+        bottom: 277px;
+    }
+
+    footer{
+        top: 85px;
+    }
+
+    footer > p{
+        font-size: 0.75em;
+    }
+
 }
