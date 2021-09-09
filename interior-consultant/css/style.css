@@ -1,3 +1,21 @@
+@keyframes blink_text{
+    0%{
+        color:#37bcf9;
+    }
+    25%{
+        color:blueviolet;
+    }
+    50%{
+        color:whitesmoke;
+    }
+    75%{
+        color:gold;
+    }
+    100%{
+        color:#37bcf9;
+    }
+}
+
 .body{
     background-color: black;
     margin: 0px;
@@ -5,6 +23,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.body::-webkit-scrollbar{
+    width: 15px;
+    background-color: white;
+}
+
+.body::-webkit-scrollbar-thumb{
+    background-color: #222;
+    border-radius: 10px;
+    border: 2px solid white;
 }
 
 .bodyHeader{
@@ -192,6 +221,7 @@
     color: #777;
     font-weight: bolder;
     font-size: 1.2em;
+    animation: blink_text 5s infinite linear;
 }
 
 @media screen and (max-width:375px) {
