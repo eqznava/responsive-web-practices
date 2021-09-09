@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/devchallenges.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Lora&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Interior Consultant</title>
 </head>
 <body class="body">
     <header class="bodyHeader">
-        <button class="headerButton">This Interior</button>
+        <button class="headerButton">THIS INTERIOR</button>
         <nav class="menu">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a class="menuHome" href="#">Home</a></li>
                 <li><a href="#">Collection</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
@@ -21,11 +22,32 @@
         </nav>
     </header>
     <section class="main">
-        <div class="mainText"></div>
-        <div class="mainImg"></div>
+        <div class="mainText">
+            <h1>Modern interior</h1>
+            <p>A full-Service residential &<br>
+                commercial interior design and<br>
+                staging company offering<br>
+                professional organizing &<br>
+                eco-services.
+            </p>
+            <a class="mainTextAchor" href="#">Read more <img src="./img/icons8-right-arrow-40.png" alt="right arrow"></a>
+        </div>
+        <div class="mainImg">
+            <img src="./img/photo1.png" alt="photo1">
+        </div>
     </section>
+    <div class="card">
+        <div class="cardContainer">
+            <img src="./img/photo2.png" alt="woman">
+            <div class="cardText">
+                <h3>Aliza Webber</h3>
+                <h4>Interior Designer</h4>
+            </div>
+        </div>
+        <h2 class="cardCaption">Designed in 2020 by <br> Aliza Webber</h2>
+    </div>
     <footer class="footer">
-        <p>created by username - devChallenges.io</p>
+        <p>created by <a href="#">Sergio Arturo</a> - <a href="">devChallenges.io</a></p>
     </footer>
     <script src="./functions/index.js"></script>
 </body>

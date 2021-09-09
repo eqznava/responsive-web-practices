@@ -5,21 +5,33 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
 }
 
 .bodyHeader{
-    border: 1px solid silver;
     width: 95%;
     display: flex;
     justify-content:space-between;
     align-items: center;
+    position: relative;
+    top: 25px;
 }
 
 .headerButton{
-    width: 100px;
+    width: 105px;
     height: 32px;
     margin-left: 50px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-family: 'Crimson Pro';
+    font-size: 0.875em;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.headerButton:hover{
+    color: black;
+    background-color: white;
 }
 
 .menu{
@@ -32,35 +44,154 @@
     gap: 120px;
 }
 
+.menuHome{
+    border-bottom: 2px solid #777;
+    font-weight: 700;
+    color: #777;
+    transition: all 300ms;
+}
+
+.menuHome:hover{
+    color: white;
+    border-color: white;
+}
+
 .menu > ul > li > a{
     text-decoration: none;
+    color: #777;
+    font-family: Montserrat;
+    font-size: 1.125em;
+    transition: all 300ms;
+}
+
+.menu > ul > li > a:hover{
     color: white;
 }
 
 .main{
-    /* border: 1px solid white; */
     width: 95%;
     height: 585px;
     margin: 0px;
+    margin-top: 60px;
     display: flex;
     justify-content: center;
-    gap: 2%;
 }
 
 .mainText{
-    border: 1px solid silver;
     width: 40%;
     height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainText > h1{
+    font-family: Lora;
+    font-size: 3em;
+    font-weight: 500;
+    color: white;
+    margin-left: 30px;
+}
+
+.mainText > p{
+    font-family: Montserrat;
+    font-size: 1.5em;
+    color: white;
+    margin-left: 30px;
+}
+
+.mainTextAchor{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat;
+    margin-left: 30px;
+    width: 200px;
+}
+
+.mainTextAchor img{
+    height: 30px;
+    opacity: 0;
+    transition: all 300ms;
+}
+
+.mainTextAchor:hover img{
+    opacity: 1;
 }
 
 .mainImg{
-    border: 1px solid silver;
     width: 55%;
     height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainImg > img{
+    width: 90%;
+    margin: 0px;
+    z-index: 1;
+}
+
+.card{
+    background-color: black;
+    border:1px solid #222;
+    width: 410px;
+    height: 190px;
+    z-index: 2;
+    position: relative;
+    bottom: 120px;
+    left: 360px;
+    color: white;
+}
+
+.cardContainer{
+    display: flex;
+    gap: 40px;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+.cardContainer > img{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+}
+
+.cardText > h3{
+    font-size: 0.875em;
+    font-family: Montserrat;
+}
+
+.cardCaption{
+    font-family: Lora;
+    font-size: 1.5em;
+    margin-left: 45px;
+}
+
+.cardText > h4{
+    font-size: 0.75em;
+    font-family: Montserrat;
 }
 
 .footer{
-    color: white;
+    position: relative;
+    bottom: 25px;
+}
+
+.footer > p{
+    font-size: 0.875em;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #a9a9a9;
+}
+
+.footer a{
+    color: #777;
+    font-weight: bolder;
+    font-size: 1.2em;
 }
 
 @media screen and (max-width:375px) {
