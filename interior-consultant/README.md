@@ -27,7 +27,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
- - [Built With](#built-with)
+- [Built With](#built-with)
 - [Features](#features)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/eqznava/responsive-web-practices/blob/main/team-page/img/a.png)
+![screenshot](https://raw.githubusercontent.com/eqznava/responsive-web-practices/main/interior-consultant/img/127.0.0.1_5500_interior-consultant_index.html.png)
 
 - You can find the challenge [here.](https://eqznava.github.io/responsive-web-practices/team-page/)
 - I could practice a lot the responsive design and practice better my skills in JavaScript with the hamburger menu.
