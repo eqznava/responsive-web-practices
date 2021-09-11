@@ -38,7 +38,7 @@
 
 ![screenshot](https://raw.githubusercontent.com/eqznava/responsive-web-practices/main/interior-consultant/img/127.0.0.1_5500_interior-consultant_index.html.png)
 
-- You can find the challenge [here.](https://eqznava.github.io/responsive-web-practices/team-page/)
+- You can find the challenge [here.](https://eqznava.github.io/responsive-web-practices/interior-consultant/)
 - I could practice a lot the responsive design and practice better my skills in JavaScript with the hamburger menu.
 
 ### Built With
