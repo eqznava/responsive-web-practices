@@ -487,4 +487,16 @@
     .burger-button{
         left: 250px;
     }
+
+    .mainImg > img{
+        width: 95%;
+    }
+
+    .card{
+        width: 250px;
+    }
+
+    .cardContainer{
+        gap: 35px;
+    }
 }
