@@ -369,11 +369,19 @@
 @media screen and (max-width:425px) {
     .burger-button{
         display: block;
+        background-color: transparent;
+        position: absolute;
+        left: 345px;
+        top: 20px;
+    }
+
+    .headerButton{
+        margin-left: 30px;
     }
 
     .menu{
         height: auto;
-        background: rgba(5, 111, 255, 0.5);
+        background: black;
         position: fixed;
         z-index: 3;
         top: 0;
@@ -381,12 +389,102 @@
         width: 100vw;
         bottom: 0;
         display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: 3s;
+        transition: 1.5s;
     }
 
     .menu.is-active{
         left: 0;
+    }
+
+    .menu > ul {
+        gap: 30px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .main{
+        flex-direction: column;
+        height: 580px;
+        gap: 0px;
+    }
+
+    .mainText,
+    .mainImg{
+        width: 100%;
+    }
+
+    .mainText{
+        height: 155%;
+    }
+
+    .mainText > h1 {
+        font-size: 1.8em;
+    }
+
+    .mainText > p {
+        font-size: 0.9em;
+    }
+
+    a.mainTextAchor{
+        font-size: 0.9em;
+        font-weight: 700;
+    }
+
+    .mainImg > img {
+        width: 90%;
+        height: 80%;
+    }
+
+    .card {
+        height: 155px;
+        left: 5px;
+        bottom: 55px;
+    }
+
+    .cardContainer > img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .cardCaption{
+        font-size: 1em;
+        margin-top: 5px;
+    }
+
+    .footer {
+        bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    .burger-button{
+        left: 305px;
+    }
+
+    .headerButton{
+        margin-left: 20px;
+    }
+
+    .main{
+        width: 100%;
+    }
+
+    .card{
+        left: 0px;
+        bottom: 70px;
+    }
+
+    .footer > p{
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width:320px){
+    .burger-button{
+        left: 250px;
     }
 }

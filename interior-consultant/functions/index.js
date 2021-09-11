@@ -1,5 +1,5 @@
 const phone = window.matchMedia('screen and (max-width: 425px)');
-phone.addEventListener(validation);
+phone.addListener(validation);
 const menu = document.querySelector('.menu');
 const burgerButton = document.querySelector('#burger-menu');
 
