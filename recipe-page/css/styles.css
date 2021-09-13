@@ -31,6 +31,7 @@ body{
     font-style: italic;
     font-weight: 500;
     font-size: 0.85em;
+    margin-top: 0px;
 }
 
 .imgHead{
@@ -220,4 +221,311 @@ footer > p > a{
 
 footer > p > a:hover{
     color: #333333;
+}
+
+@media screen and (max-width:1024px) {
+    .textHead > p{
+        margin-bottom: 0px;
+    }
+    .card {
+        width: 35%;
+        height: 320px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .card {
+        width: 45%;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:870px) {
+    .title > h1 {
+        font-size: 2.5em;
+    }
+
+    .textHead > p{
+        font-size: 0.8em;
+    }
+
+    .mainInfoContainer {
+        gap: 70px;
+    }
+}
+
+@media screen and (max-width:818px) {
+    .textHead > p{
+        font-size: 0.75em;
+    }
+
+    .card{
+        height: 250px;
+    }
+
+    .iconText > h4 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .ingredientText{
+        width: 210%;
+    }
+
+    .instructions {
+        width: 210%;
+    }
+}
+
+@media screen and (max-width:771px) {
+    .textHead > p{
+        font-size: 0.7em;
+    }
+
+    .card {
+        width: 55%;
+        height: 300px;
+    }
+
+    .iconText,
+    .iconTextOne {
+        width: 95px;
+    }
+
+    .iconText > h4,
+    .iconTextOne > h4{
+        font-size: 0.85em;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .card {
+        width: 55%;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:746px) {
+    .link > p {
+        font-size: 0.85em;
+    }
+
+    .ingredientsSubtitle{
+        margin-top: 50px;
+    }
+
+    .ingredientSection > p {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width:730px) {
+    .title > h1 {
+        font-size: 2.35em;
+    }
+
+    .textHead > p {
+        font-size: 0.65em;
+    }
+}
+
+@media screen and (max-width:677px) {
+    .title > h1 {
+        font-size: 2.25em;
+    }
+
+    .textHead > p {
+        font-size: 0.63em;
+    }
+}
+
+@media screen and (max-width:661px){
+    .title > h1 {
+        font-size: 2.05em;
+    }
+
+    .textHead > p {
+        font-size: 0.6em;
+        margin-top: 0px;
+    }
+
+    .ingredientSection > p {
+        font-size: 0.78em;
+    }
+
+    .link > p {
+        font-size: 0.75em;
+    }
+}
+
+@media screen and (max-width:633px) {
+    .textHead > p{
+        font-size: 0.57em;
+    }
+
+    .ingredientSection > p {
+        font-size: 0.68em;
+    }
+}
+
+@media screen and (max-width:605px) {
+    .title > h1 {
+        font-size: 2em;
+    }
+
+    .textHead > p {
+        font-size: 0.55em;
+    }
+
+}
+
+@media screen and (max-width:591px) {
+    .title > h1 {
+        font-size: 1.85em;
+    }
+
+    .card {
+        height: 250px;
+    }
+
+    .iconTextOne{
+        margin-top: 15px;
+    }
+
+    .iconText,
+    .iconTextOne{
+        width: 60px;
+        margin-bottom: 15px;
+    }
+
+    .iconText > h4,
+    .iconTextOne > h4{
+        font-size: 0.65em;
+        margin-top: 0px;
+    }
+
+    .iconText > h5{
+        margin-bottom: 0px;
+    }
+
+    .iconTextOne > h5 {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width:583px){
+    .textHead > p {
+        font-size: 0.5em;
+    }
+}
+
+@media screen and (max-width:567px) {
+    .title > h1 {
+        font-size: 1.75em;
+    }
+
+    .textHead > p {
+        font-size: 0.49em;
+    }
+
+    .ingredientsSubtitle {
+        margin-top: 20px;
+        font-size: 0.9em;
+    }
+
+    .link > p {
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width:533px) {
+    .textHead img {
+        bottom: 10px;
+    }
+
+    .cardInfoOne {
+        gap: 10px;
+    }
+
+    .iconOne > img{
+        position: relative;
+        top: 15px;
+    }
+
+    .iconOne > img,
+    .iconTwo > img {
+        width: 20px;
+    }
+
+    .link > p {
+        font-size: 0.68em;
+    }
+}
+
+@media screen and (max-width:521px) {
+    .title > h1 {
+        font-size: 1.7em;
+    }
+
+    .textHead img {
+        bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width:517px){
+    .title > h1 {
+        font-size: 1.5em;
+    }
+
+    .mainInfoContainer {
+        gap: 40px;
+    }
+
+    .card{
+        width: 45%;
+    }
+
+    .link > p {
+        font-size: 0.65em;
+    }
+}
+
+@media screen and (max-width:496px) {
+    .mainInfoContainer{
+        flex-direction: column-reverse;
+    }
+
+    .card {
+        flex-direction: row;
+        box-shadow: none;
+        width: 100%;
+        height: 100px;
+    }
+
+    .mainInfo {
+        width: 100%;
+    }
+
+    .ingredientText {
+        width: 100%;
+    }
+
+    .instructions {
+        width: 100%;
+    }
+
+    .link > p {
+        font-size: 0.62em;
+    }
+}
+
+@media screen and (max-width:451px) {
+    .title > h1 {
+        font-size: 1.3em;
+    }
+
+    .textHead img {
+        bottom: 15px;
+    }
 }
