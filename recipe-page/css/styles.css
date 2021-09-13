@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.main{
+    border: 1px solid black;
+    width: 70%;
+}
+
+.title > h1{
+    font-family: Playfair Display;
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.textHead{
+    display: flex;
+    gap: 10px;
+}
+
+.textHead img{
+    position: relative;
+    bottom: 15px;
+}
+
+.textHead p{
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 0.85em;
+}
+
+.imgHead{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.imgHead > img{
+    width: 100%;
+}
+
+.mainInfoContainer{
+    display: flex;
+}
+
+.mainInfo{
+    width: 70%;
+}
+
+.ingredientsTitle{
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+.card{
+    border: 1px solid black;
+    width: 25%;
+    height: fit-content;
+}
