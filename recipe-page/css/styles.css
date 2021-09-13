@@ -6,7 +6,6 @@ body{
 }
 
 .main{
-    border: 1px solid black;
     width: 70%;
 }
 
@@ -45,20 +44,180 @@ body{
 
 .mainInfoContainer{
     display: flex;
+    gap: 130px;
 }
 
 .mainInfo{
-    width: 70%;
+    width: 59%;
+}
+
+.ingredientsTitle,
+.instructionsTitle{
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 1.5em;
 }
 
 .ingredientsTitle{
+    margin-top: 0px;
+}
+
+.instructionsTitle{
+    margin-bottom: 0px;
+}
+
+.ingredientsSubtitle{
     font-family: Playfair Display;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.ingredientSection{
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
+
+.ingredientSection > p{
+    font-family: Montserrat;
+    font-size: 0.9em;
+    margin-top: 0px;
+}
+
+.instructions{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.instruction{
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+
+.instruction > p{
+    margin-top: 0px;
+    font-family: Montserrat;
+    font-size: 1em;
+}
+
+.number{
+    background-color: #F2994A;
+    border-radius: 6px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number span{
+    font-family: 'Playfair Display';
     font-weight: 700;
-    font-size: 2.5em;
+    font-size: 1.5em;
+    color: white;
+    position: relative;
+    bottom: 4px;
+    right: 1px;
+    margin: 18px;
 }
 
 .card{
-    border: 1px solid black;
-    width: 25%;
-    height: fit-content;
+    width: 22%;
+    height: 367px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.link > p{
+    font-family: Montserrat;
+    font-size: 1em;
+    font-style: italic;
+    color: #BDBDBD;
+}
+
+.link > p > a{
+    font-family: Montserrat;
+    font-size: 1em;
+    font-style: italic;
+    color: #BDBDBD;
+}
+
+.link > p > a:hover{
+    color: #555;
+}
+
+.iconOne > img,
+.iconTwo > img{
+    width: 27px;
+}
+
+.cardInfoOne{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}
+
+.iconText,
+.iconTextOne{
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+}
+
+.iconTextOne > h5{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 0.65em;
+    color: #BDBDBD;
+}
+
+.iconTextOne > h4{
+    margin-top: 5px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 1em;
+    color: #F2994A;
+}
+
+.iconText > h5{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 0.65em;
+    color: #BDBDBD;
+}
+
+.iconText > h4{
+    margin-top: 5px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 1em;
+    color: #333333;
+}
+
+footer > p{
+    font-family: Montserrat;
+    font-size: 1em;
+    color: #828282;
+    margin-top: 80px;
+}
+
+footer > p > a{
+    color: #828282;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+footer > p > a:hover{
+    color: #333333;
 }
