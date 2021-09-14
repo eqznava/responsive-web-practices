@@ -630,6 +630,16 @@ footer > p > a:hover{
     .main{
         width: 85%;
     }
+
+    .textHead img {
+        bottom: 10px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .textHead img {
+        bottom: 13px;
+    }
 }
 
 @media screen and (max-width:362px) {
