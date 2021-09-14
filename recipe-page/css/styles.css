@@ -5,8 +5,19 @@ body{
     align-items: center;
 }
 
+body::-webkit-scrollbar{
+    width: 15px;
+    background-color: white;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #222;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
 .main{
-    width: 70%;
+    width: 75%;
 }
 
 .title > h1{
@@ -158,7 +169,8 @@ body{
     width: 27px;
 }
 
-.cardInfoOne{
+.cardInfoOne,
+.cardInfoOneOrange{
     display: flex;
     justify-content: center;
     align-items: start;
@@ -443,7 +455,8 @@ footer > p > a:hover{
         bottom: 10px;
     }
 
-    .cardInfoOne {
+    .cardInfoOne,
+    .cardInfoOneOrange{
         gap: 10px;
     }
 
@@ -492,15 +505,41 @@ footer > p > a:hover{
 }
 
 @media screen and (max-width:496px) {
+    .main{
+        width: 80%;
+    }
+
     .mainInfoContainer{
         flex-direction: column-reverse;
     }
 
+    .number {
+        width: 30px;
+        height: 30px;
+    }
+
+    .number span {
+        font-size: 1.2em;
+    }
+
+    .instruction > p {
+        font-size: 0.85em;
+    }
+
     .card {
         flex-direction: row;
+        flex-wrap: wrap;
         box-shadow: none;
         width: 100%;
         height: 100px;
+    }
+
+    .cardInfoOneOrange{
+        margin-right: 215px;
+    }
+
+    .cardInfoOne{
+        margin-right: 10px;
     }
 
     .mainInfo {
@@ -527,5 +566,84 @@ footer > p > a:hover{
 
     .textHead img {
         bottom: 15px;
+    }
+
+}
+
+@media screen and (max-width:432px) {
+    .textHead img {
+        bottom: 10px;
+    }
+
+    .iconText > h4,
+    .iconTextOne > h4 {
+        font-size: 0.6em;
+    }
+
+    .cardInfoOneOrange {
+        margin-right: 204px;
+    }
+
+    .iconText,
+    .iconTextOne {
+        width: 58px;
+    }
+
+    footer > p {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .textHead img {
+        bottom: 10px;
+    }
+
+    .cardInfoOne,
+    .cardInfoOneOrange {
+        gap: 7px;
+    }
+}
+
+@media screen and (max-width:412px) {
+    .textHead img {
+        bottom: 14px;
+    }
+
+    .iconText > h5,
+    .iconTextOne > h5{
+        font-size: 0.58em;
+    }
+
+    .cardInfoOne,
+    .cardInfoOneOrange {
+        gap: 7px;
+    }
+
+    .iconText,
+    .iconTextOne {
+        width: 56px;
+    }
+}
+
+@media screen and (max-width:382px) {
+    .main{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width:362px) {
+    .main{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:327px) {
+    .main{
+        width: 98%;
+    }
+
+    footer > p{
+        font-size: 0.7em;
     }
 }
