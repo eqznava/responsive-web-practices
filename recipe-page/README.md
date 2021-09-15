@@ -36,10 +36,10 @@
 
 ## Overview
 
-![screenshot](https://raw.githubusercontent.com/eqznava/responsive-web-practices/main/interior-consultant/img/127.0.0.1_5500_interior-consultant_index.html.png)
+![screenshot](https://raw.githubusercontent.com/eqznava/responsive-web-practices/main/recipe-page/img/screeshoot.png)
 
 - You can find the challenge [here.](https://eqznava.github.io/responsive-web-practices/interior-consultant/)
-- I could practice a lot the responsive design and practice better my skills in JavaScript with the hamburger menu.
+- I could practice a lot the responsive design and practice the input elements to create a list to do.
 
 ### Built With
 
@@ -47,13 +47,12 @@
 
 - [HTML](https://developer.mozilla.org/es/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
-- [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht) was to build an application to complete the given user stories.
 
 
 ## Acknowledgements
