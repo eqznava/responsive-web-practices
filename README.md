@@ -7,3 +7,4 @@ Here I'm going to put all the responsive web practices.
 - [Team Page](https://eqznava.github.io/responsive-web-practices/team-page/)
 - [Interior Consultant](https://eqznava.github.io/responsive-web-practices/interior-consultant/)
 - [Recipe Page](https://eqznava.github.io/responsive-web-practices/recipe-page/)
+- [My Gallery](https://eqznava.github.io/responsive-web-practices/my-gallery/)
