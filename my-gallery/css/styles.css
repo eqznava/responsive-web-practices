@@ -141,3 +141,73 @@ footer > p > a{
 footer > p > a:hover{
     color: #4E5150;
 }
+
+@media screen and (max-width:768px) {
+    .stadisticOne,
+    .stadisticTwo,
+    .stadisticThree {
+        width: 25%;
+    }
+
+    .p1{
+        font-size: 0.9em;
+    }
+
+    .p2{
+        font-size: 0.85em;
+    }
+}
+
+@media screen and (max-width:610px) {
+    .stadisticOne,
+    .stadisticTwo,
+    .stadisticThree {
+        width: 30%;
+    }
+
+    .p1{
+        font-size: 0.85em;
+    }
+
+    .p2{
+        font-size: 0.75em;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .main{
+        width: 90%;
+    }
+
+    footer > p{
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width:480px) {
+    footer > p{
+        font-size: 0.85em;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .stadisticOne,
+    .stadisticTwo,
+    .stadisticThree {
+        width: 30%;
+    }
+
+    .p1{
+        font-size: 0.8em;
+    }
+
+    .p2{
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width:345px) {
+    footer > p{
+        font-size: 0.78em;
+    }
+}
