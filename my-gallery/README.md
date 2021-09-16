@@ -36,10 +36,10 @@
 
 ## Overview
 
-![screenshot](https://raw.githubusercontent.com/eqznava/responsive-web-practices/main/recipe-page/img/screeshoot.png)
+![screenshot](https://raw.githubusercontent.com/eqznava/responsive-web-practices/main/my-gallery/img/screenshoot.png)
 
 - You can find the challenge [here.](https://eqznava.github.io/responsive-web-practices/my-gallery/)
-- I could practice a lot the responsive design and practice the input elements to create a list to do.
+- I could practice a lot the responsive design and practice the grid display design for the gallery.
 
 ### Built With
 
@@ -52,7 +52,7 @@
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I) was to build an application to complete the given user stories.
 
 
 ## Acknowledgements

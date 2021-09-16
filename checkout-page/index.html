@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/devchallenges.webp" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Checkout Page</title>
+</head>
+<body>
+    <section class="main">
+        <section class="personalInfo">
+            <h1>Checkout</h1>
+            <div class="contactInfo">
+                <h2>Contact Information</h2>
+                <label for="email">E-mail</label>
+                <input id="email" type="text" placeholder="Enter your email...">
+                <img src="" alt="email image">
+                <label for="phone">Phone</label>
+                <input id="phone" type="text" placeholder="Enter your Phone...">
+                <img src="" alt="phone image">
+            </div>
+            <div class="shippingAddress">
+                <h2>Shipping Address</h2>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Cheko Nava">
+                <label for="address">Address</label>
+                <input type="text" id="address" placeholder="Your address...">
+                <label for="city">City</label>
+                <input type="text" id="city" placeholder="Your city...">
+                <div class="cityInfo">
+                    <label for="countriesList">Country</label>
+                    <input id="countriesList" list="countries" placeholder="Your country...">
+                    <datalist id="countries">
+                        <option value="México">
+                        <option value="United States">
+                        <option value="Colombia">
+                        <option value="Japon">
+                        <option value="Canada">
+                        <option value="Alemania">
+                        <option value="Rusia">
+                        <option value="Argentina">
+                        <option value="Venezuela">
+                    </datalist>
+                    <label for="postalCode">Postal Code</label>
+                    <input type="number" id="postalCode" placeholder="Your postal code...">
+                    <input type="checkbox" id="saveInfo">
+                    <label for="SaveInfo">Save this information for next time</label>
+                    <input type="submit" value="Continue">
+                </div>
+            </div>
+        </section>
+        <section class="itemsInfo"></section>
+    </section>
+</body>
+</html>

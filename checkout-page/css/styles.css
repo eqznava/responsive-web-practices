@@ -1,0 +1,47 @@
+body{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    border: 1px solid palevioletred;
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.personalInfo{
+    border: 1px solid red;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.contactInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.shippingAddress{
+    display: flex;
+    flex-direction: column;
+}
+
+.cityInfo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+
+.itemsInfo{
+    border: 1px solid green;
+    display: flex;
+    width: 35%;
+}
