@@ -1,0 +1,143 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    gap: 40px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.avatarInfo{
+    text-align: center;
+}
+
+.avatarInfo > img{
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: -4px 4px 8px #777;
+}
+
+.avatarName{
+    font-size: 1.5em;
+}
+
+.avatarLocation{
+    color: #a9a9a9;
+    font-size: 1em;
+}
+
+.avatarStadistics{
+    display: flex;
+    justify-content: space-around;
+}
+
+.stadisticOne,
+.stadisticTwo,
+.stadisticThree{
+    background-color: #e5e5e5;
+    border-radius: 15px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p1{
+    color: #4E5150;
+    font-weight: bolder;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.p2{
+    color: #bdbdbd;
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galleryGrid{
+    display: grid;
+    width: 100%;
+    grid-template-areas: " img1 img2 img2"
+                                    " img3 img3 img4"
+                                    " img5 img6 img4";
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+    row-gap: 15px;
+    padding: 10px;
+}
+
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: -4px 4px 8px #777;
+}
+
+.img-1{
+    grid-area: img1;
+}
+
+.img-2{
+    grid-area: img2;
+}
+
+.img-3{
+    grid-area: img3;
+}
+
+.img-4{
+    grid-area: img4;
+}
+
+.img-5{
+    grid-area: img5;
+}
+
+.img-6{
+    grid-area: img6;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+}
+
+footer > p{
+    color: #a9a9a9;
+}
+
+footer > p > a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #a9a9a9;
+    transition: all 300ms;
+}
+
+footer > p > a:hover{
+    color: #4E5150;
+}
