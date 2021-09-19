@@ -162,22 +162,29 @@ input[type = submit]:hover{
 }
 
 .purchaseInformation{
-    border: 1px solid green;
+    box-shadow: -2px 2px 5px #999;
+    background-color: #F2F2F2;
+    border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     width: 35%;
+    position: relative;
+    bottom: 105px;
+    padding: 20px;
 }
 
 .itemsContainer{
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .item{
-    border: 1px solid deeppink;
     display: flex;
     width: 100%;
     height: auto;
+    gap: 10px;
 }
 
 .itemInfo{
@@ -195,15 +202,63 @@ input[type = submit]:hover{
     gap: 10px;
 }
 
+.discountPrice{
+    color: #f2994a;
+    font-weight: 600;
+}
+
+.firstPrice{
+    text-decoration: line-through;
+}
+
 .counter{
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid #333;
+    border: 1px solid #828282;
+    align-items: center;
+    border-radius: 5px;
     width: 70%;
     height: 35px;
 }
 
 .item > img{
+    border-radius: 15px;
     width: 50%;
     height: 50%;
+}
+
+.subtract,
+.add{
+    box-shadow: -1px 1px 2px #888;
+    border: 1px solid #e0e0e0;
+    background: #E0E0E0;
+    border-radius: 5px;
+    width: 20%;
+    height: 63%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.line{
+    width: 100%;
+    border: 1px solid #bdbdbd;
+}
+
+.finalInformationPurchase{
+    margin-top: 125px;
+}
+
+.shippingCost,
+.totalCost{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.shippingCost > p,
+.totalCost > p{
+    font-weight: 600;
 }
